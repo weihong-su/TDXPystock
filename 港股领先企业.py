@@ -29,18 +29,18 @@ if __name__ == '__main__':
         #print(code)
         name=str(data[1]['名称'])
         linebank = str(data[1]['所属行业'])
+        url=f'https://www.futunn.com/stock/{code}-HK/company'
         try:
-            response=req.get(url+code,headers=headers) #发起get请求
+            response=req.get(url,headers=headers) #发起get请求
         except BaseException as be:
             #print(be)
-            response = req.get(url + code, headers=headers)  #重试一次
-            continue
+            response = req.get(url, headers=headers)  #重试一次
         if response.status_code != 200:
             continue
         #print(url)
         bsdata=bs4.BeautifulSoup(response.text,'lxml')
         #print(bsdata)
-        stockdesc=bsdata.find('div',class_='fRight').findChild('p',class_='stockIntro').text
+        stockdesc=bsdata.find('div',class_='toggle-content-text').findChild('p',class_='text-wrap').text
         #print(stockdesc)
         #sampledsc = bsdata.find('div',class_='c01')
         list=['全球领先' , '行业第一' , '全球第一' ,'市占率第一', '全球最大' , '龙头' ,'全球唯一','中国最大']
