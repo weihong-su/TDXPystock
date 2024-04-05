@@ -1,3 +1,4 @@
+由于涉及交易，很多核心功能个人不便于公开
  个人小站:https://aifamily.me ,论坛：http://20.78.8.105:8082/ 
  
  智能选股：http://124.71.9.141:8001/  ETF顶底监控：http://124.71.9.141:8003/
@@ -10,7 +11,7 @@
 安装使用准备：
      
     1、下载代码：git clone https://github.com/newhackerman/TDXPystock.git
-    2、安装好mysql数据库，执行init.sql里的SQL语句完成数据结构的初始化
+    2、安装好mysql数据库，执行init.sql里的SQL语句完成数据结构的初始化，安装好redis
     3、执行pip install -r requirements.txt 安装好项目所需要的python包
     4、建一个数据库连接配置文件：mysqlconfig.json 里面内容为：{"host":"xxxxxx","user":"xxxxxx","password":"xxxxxx","database":"xxxxxx","tushare":"xxxxxx"}  xxxxxx使用真实的配置代替
     5、代码中使用的一些文件配置路径，请根据自己真实的环境修改
