@@ -1,7 +1,7 @@
 由于涉及交易，很多核心功能个人不便于公开
- 个人小站:https://aifamily.me ,论坛：http://20.78.8.105:8082/ 
+ 个人小站:http://117.72.66.121 
  
- 智能选股：http://124.71.9.141:8001/  ETF顶底监控：http://124.71.9.141:8003/
+ 智能选股：http://117.72.66.121:8001/  ETF顶底监控：http://117.72.66.121:8003/
  
 # 使用python 玩股票  (代码基于python3 数据库为mysql) 
 【由于新版本使用了私有账户与相关云资源不便于公开，部分代码未上传，此文档中说明的相关功能目前未授影响】
@@ -91,5 +91,5 @@
 
 如果您认为还不错，也可以随意打赏
 
-![打赏码](https://github.com/newhackerman/TDXPystock/blob/master/pics/%E5%BE%AE%E4%BF%A1%E4%B8%8E%E6%94%AF%E4%BB%98%E5%AE%9D.png)
+![打赏码](https://github.com/newhackerman/TDXPystock/blob/master/pics/%E5%BE%AE%E4%BF%A1%E4%B8%8E%E6%94%AF%E4%BB%98%E5%AE%9D.png?raw=true)
 
